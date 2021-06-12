@@ -6,6 +6,7 @@
     {"id":{"name":"obj_heart","path":"objects/obj_heart/obj_heart.yy",},"order":3,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":2,},
     {"id":{"name":"scr_utility","path":"scripts/scr_utility/scr_utility.yy",},"order":0,},
+    {"id":{"name":"snd_roomloop1","path":"sounds/snd_roomloop1/snd_roomloop1.yy",},"order":0,},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},"order":4,},
     {"id":{"name":"spr_armor","path":"sprites/spr_armor/spr_armor.yy",},"order":7,},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":10,},
