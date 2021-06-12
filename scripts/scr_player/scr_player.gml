@@ -14,13 +14,28 @@ function player_move(){
 		phy_linear_velocity_x = lerp(phy_linear_velocity_x, 0, 0.05)
 		phy_linear_velocity_y = lerp(phy_linear_velocity_y, 0, 0.05)
 		}
-		
+	
+	/* dash
 	if mouse_check_button_pressed(mb_right) and dash_ready
 		{
 		dash_ready = false
 		phy_linear_velocity_x = lerp(phy_linear_velocity_x, lengthdir_x(max_spd * dash_speed, dir), 0.05)
 		phy_linear_velocity_y = lerp(phy_linear_velocity_y, lengthdir_y(max_spd * dash_speed, dir), 0.05)
+		}*/
+		
+	if mouse_check_button(mb_right) and heart_pull > 0
+		{
+		var dir = point_direction(obj_heart.x, obj_heart.y, x, y)
+		var xx = lengthdir_x(dash_speed, dir);
+		var yy = lengthdir_y(dash_speed, dir);
+		
+		with obj_heart
+			{
+			physics_apply_force(x, y, xx, yy)
+			}
+		heart_pull -= 1
 		}
+	
 		
 	if collision_line(x, y, obj_heart.x, obj_heart.y, obj_collider, true, false)//wall breaks connection
 		{
