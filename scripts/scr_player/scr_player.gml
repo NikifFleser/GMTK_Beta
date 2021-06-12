@@ -41,6 +41,7 @@ function player_draw(){
 		{
 		draw_line_width_color(x, y, obj_heart.x, obj_heart.y, 4, c_blue, c_red)
 		}
+	draw_sprite(spr_player_flame, (index * 2) mod 4, x, y + sin(index) * 4)
 	draw_sprite(sprite_index, 0, x, y + sin(index) * 4)
 
 }

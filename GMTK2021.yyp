@@ -21,6 +21,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},"order":8,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
+    {"id":{"name":"spr_player_flame","path":"sprites/spr_player_flame/spr_player_flame.yy",},"order":8,},
     {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},"order":0,},
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},"order":1,},
   ],
